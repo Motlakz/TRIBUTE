@@ -1,0 +1,1 @@
+This is my first Tribute and Form task from my Side Hustle Internship. I created a tribute page as well as a form, using HTML5 for structure and CSS3 for styling. I chose to use internal stylesheet due to the fact that the challenge is specifically for HTML Basics.
