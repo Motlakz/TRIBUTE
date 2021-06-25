@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: pink;
+        font-family: Poppins, sans-serif;
+        font-size: 20px;
+    }
+    h1 {
+        position: relative;
+        left: 40px;
+        text-align: center;
+        color:dimgray
+    }
+    .container {
+        background-color: darkorchid;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    input, select {
+        background-color: cyan;
+        display: grid;
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+        border: 1px solid #808080;
+    }
+    button {
+        background-color: rgb(139, 0, 139);
+        color:cyan;
+        font-size: 25px;
+        border-radius: 10px;
+        position: relative;
+        left: 90px;
+    }
+</style>
+<body>
+    <h1>Form Group</h1>
+    <div class="container">
+    <form>
+        <label for="name"></label>
+        <input type="text" name="name" placeholder="Jane Doe">
+        <label for="number"></label>
+        <input type="text" id="phonenumber" placeholder="083-909-5090">
+        <label for="email"></label>
+        <input type="text" name="email" placeholder="example@gmail.com">
+        <label for="date"></label>
+        <input type="date" name="date" id="date" placeholder="">
+        <label for="gender"></label>
+        <select id="dropdown" name="gender" class="form-control" required>
+        <p>What is your gender?</p>
+            <option disabled selected value>Select one option:</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value="preferNo">Prefer not to say</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
